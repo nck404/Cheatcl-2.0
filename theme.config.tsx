@@ -2,6 +2,13 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Nextra" />
+      <meta property="og:description" content="Providing cheats,service,.. etc" />
+    </>
+  ),
   banner: {
     key: 'sub2nck',
     text: (
