@@ -2,7 +2,6 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  faviconGlyph : "🤞",
   banner: {
     key: 'sub2nck',
     text: (
@@ -11,6 +10,7 @@ const config: DocsThemeConfig = {
       </a>
     )
   },
+  faviconGlyph : "🤞",
   primaryHue: 183,
   primarySaturation: 33,
   logo: <span>CheatCL <strong>2.0</strong> 😎</span>,
